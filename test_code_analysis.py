@@ -1,6 +1,6 @@
-def add_numbers(a, v):
+def add_numbers(a, b):
     """Return the sum of two numbers."""
-    return a + v
+    return a + b
 # Example usage
 x = 10
 y = 7
