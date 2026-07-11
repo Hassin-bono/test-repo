@@ -5,7 +5,7 @@ import os
 #This script contains basic python commands
 
 partition = "----------------------------------------------------------------"
-print "Hello, Python"
+print "Hello, Python
 print partition+"[1]"
 #PLEASE UNDERSTAND ENVIRONMENT VARIABLES AND COMMAND LINE ARGUMENTS ?
 
