@@ -1,0 +1,15 @@
+import db
+
+
+def get_user(user_id: int):
+    """Retrieve a user by ID."""
+    return db.fetch(user_id)
+
+
+def main():
+    user = get_user(42)
+    print(user)
+
+
+if __name__ == "__main__":
+    main()
