@@ -2,8 +2,8 @@ import db
 
 
 def get_user(user_id: int):
-    """Retrieve a user by ID."""
-    return db.fetch(user_id)
+    query_result = db.fetch(user_id)
+    return query_result.get("name") if query_result else None
 
 
 def main():
